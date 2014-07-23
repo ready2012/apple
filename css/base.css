@@ -1,9 +1,11 @@
+
 .clearfix:before, .clearfix:after {
     content: '\0020';
     display: block;
     overflow: hidden;
     visibility: hidden;
     width: 0;
+    height: 0;
     height: 0;
 }
 .clearfix:after {
@@ -12,3 +14,80 @@
 .clearfix {
     zoom: 1;
 }
+
+
+body{
+	background-color: #f1f1f1;
+}
+
+header{
+	background: #2a2d34;
+	height:60px; 
+}
+header .header-box{
+	width: 1200px;
+	margin:0 auto;
+}
+
+header .header-box .logo{
+	float: left;
+	padding-top: 10px;
+}
+
+header .logo a{
+	color: #e2e2e2;
+	font-size: 28px;
+	text-decoration: none;
+	
+}
+header .header-box menu{
+	float: left;
+	padding-left:45px;
+}
+.header-box .nologin-box{
+	float: right;
+}
+.header-box menu li{
+	float:left;
+	list-style: none;
+}
+.header-box menu li a{
+	display: inline-block;
+	padding:0 24px;
+	height: 60px;
+	line-height: 60px;
+	color: #616369;
+	font-size: 16px;
+	font-family: microsoft yahei;
+	text-decoration: none;
+}
+.header-box menu li a:hover{
+	color: #7a7d82;
+	background-color: #35383e;
+}
+.header-box menu .selected a{
+	height: 55px;
+	color: #41b5ff;
+	border-bottom:5px solid #41b5ff; 
+}
+.header-box menu .selected a:hover{
+	color: #41b5ff;
+	background-color:#2a2d34; 
+}
+
+.header-box .nologin-box{
+	padding-top: 17px;
+	color:#616369;
+}
+.header-box .nologin-box a{
+	font-size: 16px;
+	font-family: microsoft yahei;
+	color: #616369;
+	text-decoration: none;
+}
+
+.main{
+	width:1200px;
+	margin: 32px auto 0;
+}
+

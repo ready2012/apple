@@ -18,6 +18,7 @@
 
 body{
 	background-color: #f1f1f1;
+	font-family:microsoft yahei;
 }
 
 header{
@@ -89,5 +90,6 @@ header .header-box menu{
 .main{
 	width:1200px;
 	margin: 32px auto 0;
+	
 }
 

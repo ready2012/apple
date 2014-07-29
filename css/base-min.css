@@ -499,6 +499,7 @@ h4, h5, h6{font-size:12px}
 
 body{
 	background-color: #f1f1f1;
+	font-family:microsoft yahei;
 }
 
 header{
@@ -570,5 +571,6 @@ header .header-box menu{
 .main{
 	width:1200px;
 	margin: 32px auto 0;
+	
 }
 

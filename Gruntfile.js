@@ -20,14 +20,16 @@
           concat: {
               basic:{
                   files: {
-                      'css/base-min.css': ['src/css/reset.css', 'src/css/base.css']
+                      'css/base-min.css': ['src/css/reset.css', 'src/css/base.css'],
+					  'css/index.css': ['src/css/index.css']
                   }
               }
           },
           cssmin: {
               combine: {
                   files: {
-                      'css/base-min.css': ['src/css/reset.css', 'src/css/base.css']
+                      'css/base-min.css': ['src/css/reset.css', 'src/css/base.css'],
+					  'css/index-min.css': ['src/css/index.css']
                   }
               }
           },

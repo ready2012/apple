@@ -93,3 +93,206 @@
 	text-decoration:none;
 	text-align: center;
 }
+
+.new{
+	margin-top:45px;
+}
+.news .photos{
+	float:right;
+	width: 360px;
+}
+.news .texts{
+	float:left;
+	width:800px;
+}
+.photos .item{
+	height: 90px;
+}
+.photos .item a{
+	float: left;
+}
+.photos .item img{
+	width:90px;
+	height:90px; 
+}
+.photos .tl{
+	height: 78px;
+	line-height: 78px;
+	margin: 1px 0;
+ 	background-color: #e01f1e;
+	color: #fff;
+	font-size:32px;
+	text-align: center;
+}
+.news {
+	margin-top: 40px;
+}
+.news .texts .tl{
+	color: #333;
+}
+.texts .head .tl{
+	font-size: 36px;
+	text-decoration: none;
+}
+.texts .head .desc{
+	margin-top:15px;
+	margin-bottom:10px;
+	color: #999;
+	font-size: 12px
+	line-height: 22px;
+}
+.texts .text-list li{
+	float: left;
+	width:380px;
+	margin-right: 20px;
+	overflow: hidden;
+	line-height: 30px;
+}
+.texts .text-list li a {
+	text-decoration: none;
+}
+.texts .text-list .tl{
+	font-size: 14px;
+}
+
+.txt-img-news {
+	margin-top: 35px;
+}
+.txt-img-news .mleft{
+	padding: 20px 60px 0 0;
+	width: 740px;
+	border:1px solid #e7e7e7;
+}
+.txt-img-news .item{
+	margin-bottom: 58px;
+}
+.txt-img-news .item.no-margin{
+	margin: 10px;
+}
+.txt-img-news h2.tl{
+	color: #ededed;
+	font-size: 36px;
+	margin-left: 22px;
+	margin-bottom: 20px;
+}
+.txt-img-news h3.tl{
+	color: #39ac00;
+	font-size: 18px;
+	margin-left: 22px;
+	font-family: micro yahei;
+
+}
+.txt-img-news h3.tl em{
+	font-family:Myriad Pro;
+	font-weight: bold;
+	font-size: 48px; 
+}
+
+.txt-img-news .item .img{
+	float: left;
+	width: 201px;
+	margin-left: -1px;
+
+}
+.txt-img-news .item img{
+	width:201px;
+	height: 133px;
+}
+.txt-img-news .item .txt-box{
+	float: right;
+	width:508px;
+}
+.item .txt-box .tl{
+	color: #333;
+	font-size:24px; 
+	text-decoration: none;
+}
+.item .txt-box .other{
+	font-size: 12px;
+	color: #bbb;
+	line-height: 22px;
+	margin-top:5px;
+}
+.item .txt-box .other .time{
+	margin-right: 20px;
+}
+.item .txt-box .desc{
+	margin-top: 10px;
+	line-height: 24px;
+	color: #666;
+	font-size: 14px;
+}
+
+.mright .catagory{
+	background-color: #fff;
+}
+.catagory td{
+	line-height: 45px;
+	border:1px solid #e7e7e7;
+	font-size: 14px;
+	text-align: center;
+}
+.catagory td a {
+	text-decoration: none;
+	color: #666;
+}
+
+.mright .skills{
+	margin-top: 25px;
+}
+.mright .skills li{
+	float: left;
+	margin-right: 9px;
+}
+.mright .skills .no-margin{
+	margin:0;
+}
+.mright .skills img{
+	width:114px;
+	height: 80px;
+}
+.mright .skills .name{
+	text-align: center;
+}
+.mright .skills .name a{
+	width:80px;
+	overflow: hidden;
+	text-align: center;
+	color: #666;
+	font-size:14px; 
+	text-decoration: none;	
+}
+.mright .ad {
+	margin-top: 20px;	
+}
+
+.mright .how-to-tel{
+	width: 360px;
+	height: 80px;
+	line-height: 80px;
+	padding-left: 100px;
+	margin-top: 14px;
+	background:url(/i/tel.png) no-repeat; 
+}
+.mright .how-to-tel a,.mright .how-to-net a,.mright .how-to-sync a{
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;	
+	text-decoration: none;
+}
+.mright .how-to-net{
+	width: 360px;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 14px;
+	padding-left: 100px;
+	background:url(/i/net.png) no-repeat; 
+}
+.mright .how-to-sync{
+	width: 360px;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 14px;
+	padding-left: 100px;
+	background:url(/i/sync.png) no-repeat; 
+}

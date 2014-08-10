@@ -1,0 +1,42 @@
+.bbs-box .bbs-list{
+
+}
+.bbs-list li{
+	float:left;
+	margin-right:20px;
+	margin-bottom:40px; 
+	overflow: hidden;
+	background-color: #fff;
+}
+.bbs-list li a{
+	display: block;
+	width:242px;
+	height: 318px;
+	padding:40px 20px 0;
+	border:1px solid #d0d0d0;
+	text-decoration: none;
+	border-radius: 5px;
+}
+.bbs-list li a:hover{
+	box-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
+
+	
+.bbs-list .column-4{
+	margin-right:0;
+}
+.bbs-list li p{
+	text-align: center;
+}
+.bbs-list li .tl{
+	font-size: 22px;
+	color: #737373;
+	margin-top: 40px;
+
+}
+.bbs-list li .tip{
+	font-size: 12px;
+	line-height: 18px;
+	margin-top: 15px;
+	color: #7c7c7c;
+}

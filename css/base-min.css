@@ -574,3 +574,27 @@ header .header-box menu{
 	
 }
 
+.two-column {
+
+}
+.two-column .mleft{
+	float: left;
+	width: 800px;
+	background-color: #fff;
+}
+.two-column .mright{
+	float: right;
+	width: 360px;
+}
+
+.two-column-2 {
+
+}
+.two-column-2 .mleft{
+	float: left;
+	width: 360px;
+}
+.two-column-2 .mright{
+	float: right;
+	width: 840px;
+}

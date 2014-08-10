@@ -21,7 +21,10 @@
               basic:{
                   files: {
                       'css/base-min.css': ['src/css/reset.css', 'src/css/base.css'],
-					  'css/index.css': ['src/css/index.css']
+					             'css/index.css': ['src/css/index.css'],
+                       'css/bbs.css': ['src/css/bbs.css'],
+                       'css/articles.css': ['src/css/articles.css']
+
                   }
               }
           },

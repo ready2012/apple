@@ -1,0 +1,55 @@
+.articles-box{
+
+}
+.articles-box .mleft{
+	padding-right:30px;
+	width:330px;
+}
+.articles-box .return{
+	font-size: 14px;
+	color: #999;
+	text-decoration: none;
+}
+.articles-box  .bbs-name{
+	margin-top: 55px;
+}
+.articles-box  .bbs-name p{
+	text-align: center;
+}
+.bbs-name  .tl{
+	margin-top: 18px;
+	font-size: 22px;
+	color: #737373;
+}
+.bbs-name  .num{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #999;
+}
+.bbs-hot {
+	margin-top: 27px;
+}
+.bbs-hot h3{
+	color: #999;
+	font-size: 14px;
+}
+.bbs-hot li{
+	margin-bottom: 20px;
+}
+.bbs-hot li a{
+	color: #737373;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.mright  .sub-cata{
+	border-bottom:1px solid ;
+}
+.sub-cata a{
+	color: #737373;
+	text-decoration: none;
+}
+.sub-cata .selected{
+	color: #333;
+}

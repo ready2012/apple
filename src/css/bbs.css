@@ -6,7 +6,6 @@
 	margin-right:20px;
 	margin-bottom:40px; 
 	overflow: hidden;
-	background-color: #fff;
 }
 .bbs-list li a{
 	display: block;
@@ -16,9 +15,10 @@
 	border:1px solid #d0d0d0;
 	text-decoration: none;
 	border-radius: 5px;
+	background-color: #fff;
 }
 .bbs-list li a:hover{
-	box-shadow: 0 0 8px rgba(0,0,0,0.8);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.8);
 }
 
 	

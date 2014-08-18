@@ -54,7 +54,7 @@
 	margin-top:30px;
 }
 .update-products .tl{
-	background:url(/i/update-icon.png) no-repeat;
+	background:url(../i/update-icon.png) no-repeat;
 	color:#fff;
 	font-size:16px;
 	padding-left:12px;
@@ -272,7 +272,7 @@
 	line-height: 80px;
 	padding-left: 100px;
 	margin-top: 14px;
-	background:url(/i/tel.png) no-repeat; 
+	background:url(../i/tel.png) no-repeat; 
 }
 .mright .how-to-tel a,.mright .how-to-net a,.mright .how-to-sync a{
 	color: #333;
@@ -286,7 +286,7 @@
 	line-height: 80px;
 	margin-top: 14px;
 	padding-left: 100px;
-	background:url(/i/net.png) no-repeat; 
+	background:url(../i/net.png) no-repeat; 
 }
 .mright .how-to-sync{
 	width: 360px;
@@ -294,5 +294,5 @@
 	line-height: 80px;
 	margin-top: 14px;
 	padding-left: 100px;
-	background:url(/i/sync.png) no-repeat; 
+	background:url(../i/sync.png) no-repeat; 
 }

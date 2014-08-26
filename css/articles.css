@@ -44,11 +44,46 @@
 }
 .two-column-2 .mright {
 	width: 838px;
+}
+.mright .wrap{
 	background-color: #fff;
 	padding: 20px 0;
 	box-shadow: 0 0 5px #e4e4e4;
 	border-radius: 6px;
 	border:1px solid #e4e4e4;
+}
+.mright .action{
+	margin-bottom: 20px;
+}
+.mright .action  a{
+	display: inline-block;
+	padding: 0 18px 0 12px; 
+	height: 40px;
+	line-height: 40px;
+	background-color: #1893e1;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 2px;
+	box-shadow:1px 0 0 #dedede; 
+}
+.mright .action a:hover{
+	background-color: #168ade;
+	text-decoration: none;
+}
+.mright .action  a i{
+	color: #a3d4f3;
+	margin-right: 10px;
+	font: 24px/24px normal;
+	padding-bottom: 1px;
+    vertical-align: middle;
+}
+.mright .action a.disabled,.mright .action a.disabled:hover{
+	color: #bbb;
+	background-color: #dedede;
+}
+.mright .action a.disabled i{
+	color: #c9c9c9;
 }
 
 .mright  .sub-cata{
